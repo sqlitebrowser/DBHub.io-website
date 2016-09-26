@@ -409,23 +409,6 @@ optgroup {
   font-weight: bold;
 }
 
-/* Tables
-   ========================================================================== */
-
-/**
- * Remove most spacing between table cells.
- */
-
-table {
-  border-spacing: 0;
-  border-collapse: collapse;
-}
-
-td,
-th {
-  padding: 0;
-}
-
 /* LAYOUT STYLES */
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
@@ -589,7 +572,6 @@ hr {
 
 table {
   width: 100%;
-  border: 1px solid #ebebeb;
 }
 
 th {
@@ -598,8 +580,8 @@ th {
 
 td {
   font-weight: 300;
-  text-align: center;
-  border: 1px solid #ebebeb;
+  text-align: left;
+  border: 0px solid #ebebeb;
 }
 
 form {
